@@ -1,0 +1,21 @@
+/*TEXT HEADING : TITLE CSS "CODEPEN"*/
+
+
+h1.text {
+  font-family: tahoma;
+  color:#2980b9;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+hr.line {
+  width: 7%;
+  height: 5%;
+  border: 1px solid black;
+  margin-bottom:60px;
+  
+}
+
+/*
+TAB UNDER NAV BAR
+*/
