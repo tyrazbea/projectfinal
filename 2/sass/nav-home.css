@@ -1,0 +1,204 @@
+/*-- header --*/
+.logo  {
+    margin: 0.5em 0;
+    padding:6px;
+}
+
+.navbar-brand {
+    display: block;
+    height: inherit;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 0;
+    float: none;
+    font-size: 0.9em;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background:#e2313d;
+} 
+.logo h1 {
+	
+    margin: 0.1em 0;
+    float: left;
+	width: 250px;
+	height: auto;	
+   /*tadi margin 0.5em 0*/
+}
+
+.navbar-nav {
+    float: right;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    background: none;
+}
+.navbar-default {
+    border: none;
+    background: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	color:#fff;
+	background:#f44336;
+}
+.header {
+   background-color: #1b1c1d;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff; 
+	font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.header-nav .nav > li > a {
+    padding: 47px 20px;
+} 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+
+
+
+/*TEXT HEADING : TITLE CSS "CODEPEN"*/
+
+
+h1.text {
+  font-family: tahoma;
+  color:#2980b9;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+hr.line {
+  width: 7%;
+  height: 5%;
+  border: 1px solid black;
+  margin-bottom:60px;
+  
+}
+
+/*
+TAB UNDER NAV BAR
+*/
+
+.application_section::before {
+  background: #fff none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  width: 100%;
+}
+.application_section {
+  background: #FFFFF none repeat scroll 0 0;
+  padding: 80px;
+  position: relative;
+}
+section {
+  float: left;
+  width: 100%;
+}
+body {
+    font-family: "Assistant",sans-serif;
+    font-size: 16px;
+      color: #333;
+    line-height: 1.42857;
+}
+.application_section .nav {
+  bottom: 0;
+  height: 124px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  z-index: 999;
+}
+.application_section .nav li {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 60px;
+}
+.application_section .nav li a {
+  border-radius: 0;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 0;
+}
+.application_section .nav li.active a {
+  background: #fff none repeat scroll 0 0;
+  border-color: #96588A;
+  color: #96588A;
+}
+.application_section h1 {
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+.application_section .radius.public {
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-org {
+  background-color: #96588A;
+  border-color: #96588A;
+  color: #fff;
+}
+.radius {
+  border-radius: 0 !important;
+}
+.para1 {
+  color: #a3a3a3;
+  margin-top: 30px;
+}
+.application_section .social_ico {
+  margin-top: 15px;
+}
+.social_ico a {
+  border-radius: 100px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 5px 0 0;
+  text-align: center;
+  width: 30px;
+}
+.application_section .social_ico a {
+  border: 1px solid #c3c3c3;
+  color: #c3c3c3;
+}
+.application_section .social_ico {
+  margin-top: 15px;
+}
+.app_img img {
+  display: inline;
+}
+.application_section .nav li {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 60px;
+}
+.application_section .nav li a {
+  background: #fff none repeat scroll 0 0;
+  border: 4px solid #000;
+  border-radius: 0;
+  color: #000;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 0;
+}
+.app_img img {
+  max-width: 418px;
+}
+
+
